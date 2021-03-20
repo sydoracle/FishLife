@@ -54,7 +54,7 @@ class Fish(Scatter):
     # Every level has a rank!
     rank = ["a fry", "a cat", "a car", "a whale", "a candy store", "an oil tanker", "the Iceland", "the Pacific Ocean itself!", 'the "MAFIAA"']
 
-    def __init__(self, image = "images/fish.png", box = [0, 0, 100, 100], **kwargs):
+    def __init__(self, image = "images/doggy.png", box = [0, 0, 100, 100], **kwargs):
         self.direction = Vector(-1, 0)
         self.angle = 1
         
