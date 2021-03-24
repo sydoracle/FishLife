@@ -53,7 +53,7 @@ class Fish(Scatter):
     # Relative size increase upon each lvlup
     size_increment = [1, 1.2, 1.2, 1.2, 1.4, 1.1, 1.1, 1.1]
     # Every level has a rank!
-    rank = ["a fry", "a cat", "a car", "a whale", "a candy store", "an oil tanker", "the Iceland", "the Pacific Ocean itself!", 'the "MAFIAA"']
+    rank = ["a fry", "a cat", "a car", "a whale", "a candy store", "an oil tanker", "the Iceland", "the Atlantic Ocean itself!", 'the "MAFIAA"']
 
     def __init__(self, image="images/fish.png", box=[0, 0, 100, 100], **kwargs):
         self.direction = Vector(-1, 0)
